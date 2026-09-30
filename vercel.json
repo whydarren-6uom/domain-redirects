@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://dar.wang/",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://dar.wang/:path*",
+      "statusCode": 301
+    }
+  ]
+}
